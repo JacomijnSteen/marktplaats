@@ -16,9 +16,10 @@
 .col-12 {width: 100%;}
 
 [class*="col-"] {
-    float: left;
-    padding: 15px;
+    float : left;
+    padding: 5px;
 }
+
 
 body {
     font-family: 'Handlee', cursive;
@@ -30,20 +31,22 @@ body {
 
 .titelblok{
    width: 90%; 
-   height: 50px;
+   height: 100px;
    margin: 40px;
    background:linear-gradient(45deg,yellow,orange,red,purple,darkblue, lightblue,darkgreen);
    border-radius: 25px;
 }
  
-.titelblok.h1 {
-    text-align:center;
-    font-size:80px;
+.titelblok > h1 {
+    text-align: center;
+    font-size:60px;
     color: black;
     text-shadow: 5px 2px 2px grey;
 }
 
-<div class="row">
-  <div class="col-3">...</div> <!-- 25% -->
-  <div class="col-9">...</div> <!-- 75% -->
-</div>
+.userTable{
+    width: 100%;
+    float: left;
+}
+
+
